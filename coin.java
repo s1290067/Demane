@@ -1,7 +1,14 @@
+import java.util.Scanner;
 import java.util.Random;
 
 public class coin{
     public static void main(String[] args) {
+	Scanner scanner = new Scanner(System.in);
+	System.out.println("Who are you?");
+	System.out.print(">");
+	String name = scanner.next();
+	System.out.println("Hello, "+name+"!");
+	
 	int[] a = {0,1};
 	int j = 0, m = 0;
 	Random r = new Random();
